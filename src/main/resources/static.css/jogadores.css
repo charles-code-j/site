@@ -1,0 +1,18 @@
+body{
+    color: black;
+    background: white ;
+}
+h1{
+    color: black;
+    font-size: 25px;
+}
+table{
+    color: bisque;
+    position: absolute;
+    left: 50%;
+    background: transparent;
+    top: 50%;
+    border: 0;
+    margin-left: -200px;
+    margin-top: 44px;
+}

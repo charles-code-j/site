@@ -8,6 +8,8 @@ import br.com.csgo.site.service.ResultadoService;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class ResultadoServiceImpl extends CrudServiceImpl<Resultado, Long> implements ResultadoService {
 
@@ -21,4 +23,6 @@ public class ResultadoServiceImpl extends CrudServiceImpl<Resultado, Long> imple
     public JpaRepository<Resultado, Long> getRepository() {
         return resultadoData;
     }
+
+
 }
